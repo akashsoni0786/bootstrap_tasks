@@ -13,51 +13,64 @@
 </head>
 <body>
   <div class="container">
-    <div class="row mt-5 mb-3 m header">
-      <div class="col-lg-12">
-        <div class="d-flex justify-content-between align-items-center flex-sm">
-          <div class="header-left d-flex justify-content-between align-items-center">
-            <div>
-              <a class="" href="#">
-                <img src="./images/book.png" alt="" width="30" height="24">
-                ABC Book
-              </a>
-            </div>
-            <form class="search-form">
-              <input type="input" name="search" id="search" placeholder="Search Book by Author or Publisher">
-            </form>
-          </div>
-          <div class="header-right d-flex justify-content-between align-items-center">
-            <ul>
-              <li><a href="#">FAQ</a></li>
-              <li><a href="#">Track Order</a></li>
-              <li class="shopping-card position-relative">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+      <div class="container-fluid px-5">
+          <a class="" href="#">
+              <img src="./images/abc-book.png" alt="" width="" height="24" />
+            </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li><input
+                  class="border-danger me-2 rounded-pill p-2 mx-2"
+                  type="search"
+                  placeholder="Search Book by Author or Publisher"
+                  aria-label="Search"
+                  style="width: 300px"
+                /></li>
+              <li><a href="#" class="px-4">FAQ</a></li>
+              <li><a href="#" class="px-4">Track Order</a></li>
+              <li class="shopping-card position-relative px-4">
                 <a href="cart.html">
-                  <i class="bi bi-cart"></i>
+                      <i class="bi bi-cart position-relative">
+                          
+                          <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+                            <span class="text-light"></span>
+                          </span>
+                      </i>
                 </a>
-                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-                  0
-                </span>
               </li>
-              <li><a href="login.html" class="btn btn-danger rounded-pill text-white">Sign in</a></li>
-            </ul>
-          </div>
-        </div>
-        <div>
+  
+              <li>
+                <a
+                  href="login.html"
+                  class="btn btn-danger rounded-pill text-white"
+                  >Sign in</a
+                >
+              </li>
+          </ul>
+          
         </div>
       </div>
+    </nav>
     </div>
   </div>
   <div class="container navigation ">
 <div class="bg-secondary p-5">
     <div class="row mb-3 ">
       <ul class="list-group list-group-horizontal justify-content-center bg-secondary">
-        <li class="list-group-item bg-secondary"><a class="text-decoration-none text-light" href="#">Home</a></li>
-        <li class="list-group-item bg-secondary"><a class="text-decoration-none text-light" href="#">Categories</a></li>
-        <li class="list-group-item bg-secondary"><a class="text-decoration-none text-light" href="#">About</a></li>
-        <li class="list-group-item bg-secondary"><a class="text-decoration-none text-light" href="#">Pages</a></li>
-        <li class="list-group-item bg-secondary"><a class="text-decoration-none text-light" href="#">Blog</a></li>
-        <li class="list-group-item bg-secondary"><a class="text-decoration-none text-light" href="#">Contant</a></li>
+        <li class="list-group-item bg-secondary"><a class="text-decoration-none text-light" href="#" style="font-size: 2vw;">Home</a></li>
+        <li class="list-group-item bg-secondary"><a class="text-decoration-none text-light" href="#" style="font-size: 2vw;">Categories</a></li>
+        <li class="list-group-item bg-secondary"><a class="text-decoration-none text-light" href="#" style="font-size: 2vw;">About</a></li>
+        <li class="list-group-item bg-secondary"><a class="text-decoration-none text-light" href="#" style="font-size: 2vw;">Pages</a></li>
+        <li class="list-group-item bg-secondary"><a class="text-decoration-none text-light" href="#" style="font-size: 2vw;">Blog</a></li>
+        <li class="list-group-item bg-secondary"><a class="text-decoration-none text-light" href="#" style="font-size: 2vw;">Contant</a></li>
       </ul>
     </div>
     <!-- Carousel -->
